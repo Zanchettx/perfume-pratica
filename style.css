@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap%27");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--Cream);
+  width: 100vw;
+  height: 100vh;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Montserrat";
+}
+
+.window {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.imagem img {
+  /* display: inline-block; */
+  width: 300px;
+  height: 440px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 440px;
+  padding: 30px;
+  gap: 20px;
+  background-color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.cart {
+  width: 20px;
+}
+
+.button {
+  display: flex;
+}
+
+.description .perfume {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  letter-spacing: 5px;
+  opacity: 0.6;
+}
+
+h1 {
+  font-family: "Fraunces";
+}
+
+.descricao {
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+.valores {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.preco1 {
+  color: var(--Dark-cyan);
+  font-size: 36px;
+  font-family: "Fraunces";
+}
+
+.preco2 {
+  color: var(--Dark-cyan);
+  /* font-size: 36px; */
+  font-family: "Montserrat";
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--Dark-cyan);
+  gap: 20px;
+  cursor: pointer;
+}
+
+.name {
+  padding-top: 50px;
+}
+
+.name span {
+  color: var(--Dark-cyan);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
